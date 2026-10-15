@@ -1,0 +1,15 @@
+make: `kernel/kernel' is up to date.
+== Test [MANDATORY] schedls reports two schedulers == [MANDATORY] schedls reports two schedulers: OK (1.3s) 
+    (Old xv6.out. failure log removed)
+== Test [MANDATORY] schedset changes scheduler == [MANDATORY] schedset changes scheduler: OK (0.9s) 
+== Test [MANDATORY] complete benchmark after scheduler switch == [MANDATORY] complete benchmark after scheduler switch: OK (3.1s) 
+== Test [MANDATORY] time benchmark complete after scheduler switch == [MANDATORY] time benchmark complete after scheduler switch: OK (2.4s) 
+== Test [OPTIONAL] optimized scheduler added == (0.3s) 
+== Test [OPTIONAL] optimized scheduler runs benchmark with time == (2.3s) 
+Passed 4 out of 4 tests
+VERIFIED PASS [MANDATORY] schedls reports two schedulers
+VERIFIED PASS [MANDATORY] schedset changes scheduler
+VERIFIED PASS [MANDATORY] complete benchmark after scheduler switch
+VERIFIED PASS [MANDATORY] time benchmark complete after scheduler switch
+VERIFIED PASS [OPTIONAL] optimized scheduler added
+VERIFIED PASS [OPTIONAL] optimized scheduler runs benchmark with time

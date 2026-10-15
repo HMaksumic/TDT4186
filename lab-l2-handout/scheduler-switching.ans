@@ -1,0 +1,3 @@
+make: `kernel/kernel' is up to date.
+== Test scheduler-switching == scheduler-switching: OK (7.4s) 
+Passed 1 out of 1 tests
