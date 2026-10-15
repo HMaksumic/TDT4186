@@ -1,0 +1,35 @@
+make: `kernel/kernel' is up to date.
+== Test [MANDATORY] vatopa exists == [MANDATORY] vatopa exists: OK (1.0s) 
+== Test [MANDATORY] vatopa 0 == [MANDATORY] vatopa 0: OK (0.9s) 
+== Test [MANDATORY] vatopa 0 1 matches == 			Matching OK
+[MANDATORY] vatopa 0 1 matches: OK (1.1s) 
+== Test [MANDATORY] cowtest no crash == [MANDATORY] cowtest no crash: OK (6.1s) 
+== Test [MANDATORY] cowtest 1 match addresses == 			Matching OK
+			Matching OK
+[MANDATORY] cowtest 1 match addresses: OK (5.5s) 
+== Test [MANDATORY] cowtest 2 match addresses == 			Matching OK
+			Matching OK
+			Matching OK
+[MANDATORY] cowtest 2 match addresses: OK (5.5s) 
+== Test [MANDATORY] cowtest 3 match addresses == 			Matching OK
+			Matching OK
+			Matching OK
+			Matching OK
+[MANDATORY] cowtest 3 match addresses: OK (5.5s) 
+== Test [MANDATORY] cowtest 4 match addresses == 			Matching OK
+			Matching OK
+			Matching OK
+			Matching OK
+			Matching OK
+			Matching OK
+			Matching OK
+[MANDATORY] cowtest 4 match addresses: OK (5.6s) 
+Passed 8 out of 8 tests
+VERIFIED PASS [MANDATORY] vatopa exists
+VERIFIED PASS [MANDATORY] vatopa 0
+VERIFIED PASS [MANDATORY] vatopa 0 1 matches
+VERIFIED PASS [MANDATORY] cowtest no crash
+VERIFIED PASS [MANDATORY] cowtest 1 match addresses
+VERIFIED PASS [MANDATORY] cowtest 2 match addresses
+VERIFIED PASS [MANDATORY] cowtest 3 match addresses
+VERIFIED PASS [MANDATORY] cowtest 4 match addresses
