@@ -1,0 +1,4 @@
+make: `kernel/kernel' is up to date.
+== Test thread shutdown, join ownership, and slot reuse == thread shutdown, join ownership, and slot reuse: OK (0.9s) 
+Passed 1 out of 1 tests
+VERIFIED PASS thread shutdown, join ownership, and slot reuse

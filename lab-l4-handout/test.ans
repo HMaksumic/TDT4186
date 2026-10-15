@@ -1,0 +1,14 @@
+make: `kernel/kernel' is up to date.
+== Test [MANDATORY] ttest 1: Hello World from Thread == [MANDATORY] ttest 1: Hello World from Thread: OK (0.6s) 
+== Test [MANDATORY] ttest 2: Hello World from multiple joined Threads == 			Matching OK
+[MANDATORY] ttest 2: Hello World from multiple joined Threads: OK (1.0s) 
+== Test [MANDATORY] ttest 3: Pass args and return results == 			Matching OK
+[MANDATORY] ttest 3: Pass args and return results: OK (1.0s) 
+== Test [MANDATORY] ttest 4: Race condition without locking == [MANDATORY] ttest 4: Race condition without locking: OK (1.0s) 
+== Test [MANDATORY] ttest 5: Race condition resolved == [MANDATORY] ttest 5: Race condition resolved: OK (1.0s) 
+Passed 5 out of 5 tests
+VERIFIED PASS [MANDATORY] ttest 1: Hello World from Thread
+VERIFIED PASS [MANDATORY] ttest 2: Hello World from multiple joined Threads
+VERIFIED PASS [MANDATORY] ttest 3: Pass args and return results
+VERIFIED PASS [MANDATORY] ttest 4: Race condition without locking
+VERIFIED PASS [MANDATORY] ttest 5: Race condition resolved

@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+from gradelib import Runner, run_tests, save, shell_script, test
+
+r = Runner(save("thread-lifecycle.out"))
+
+
+@test(1, "thread shutdown, join ownership, and slot reuse")
+def test_lifecycle():
+    r.run_qemu(shell_script(["threadtest", "echo DONE"]), timeout=15)
+    r.match("^thread regression tests passed$", "^DONE$",
+            no=["assert failed", "panic:"])
+
+
+run_tests()
